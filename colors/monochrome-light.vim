@@ -31,7 +31,7 @@ hi StatusLine guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE 
 hi StatusLineNC guifg=#737373 ctermfg=249 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi SignColumn guifg=Black ctermfg=16 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
 hi VertSplit guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=bold cterm=bold term=bold
-hi ColorColumn guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
+hi ColorColumn guifg=Black ctermfg=16 guibg=LightGray ctermbg=255 gui=NONE cterm=NONE term=NONE
 hi LineNr guifg=#202020 ctermfg=238 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi Statement guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=bold cterm=bold term=bold
 hi PreProc guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=bold cterm=bold term=bold

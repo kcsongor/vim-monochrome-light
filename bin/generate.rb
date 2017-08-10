@@ -26,6 +26,10 @@ def lgray
   { gui: 'LightGray', cterm: 252 }
 end
 
+def llgray
+  { gui: 'LightGray', cterm: 255 }
+end
+
 def cgray
   { gui: '#737373', cterm: 249 }
 end
@@ -125,7 +129,7 @@ hi :SignColumn, bg: black
 hi :VertSplit, fg: black, bg: white, bold: true
 
 # 80 char column.
-hi :ColorColumn, bg: lgray
+hi :ColorColumn, bg: llgray
 
 # Line numbers gutter.
 hi :LineNr, fg: lineNr
