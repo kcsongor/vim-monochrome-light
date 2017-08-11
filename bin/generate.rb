@@ -169,8 +169,8 @@ hi :javaScriptFunction, fg: black, bold: true
 hi :elixirDelimiter, fg: sblue
 
 # Search.
-hi :Search, fg: black, bg: sblue
-hi :Visual, fg: black, bg: sblue
+hi :Search, fg: white, bg: sblue
+hi :Visual, fg: white, bg: black
 
 # Tildes at the bottom of a buffer, etc.
 hi :NonText, fg: dgray
