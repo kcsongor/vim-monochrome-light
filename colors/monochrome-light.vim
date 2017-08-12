@@ -21,7 +21,11 @@ hi Cursor guifg=White ctermfg=15 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
 hi CursorLineNr guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=bold cterm=bold term=bold
 hi diffAdded guifg=#778899 ctermfg=124 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi diffRemoved guifg=Red ctermfg=1 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi diffRdfemoved guifg=Red ctermfg=1 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
+hi DiffAdd guifg=#778899 ctermfg=124 guibg=LightGray ctermbg=255 gui=NONE cterm=NONE term=NONE
+hi DiffChange guifg=#778899 ctermfg=20 guibg=LightGray ctermbg=255 gui=NONE cterm=NONE term=NONE
+hi DiffDelete guifg=Red ctermfg=1 guibg=LightGray ctermbg=255 gui=NONE cterm=NONE term=NONE
+hi DiffText guifg=Red ctermfg=1 guibg=LightGray ctermbg=255 gui=bold cterm=bold term=bold
 hi FoldColumn guifg=DarkGray ctermfg=248 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi Folded guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi TabLine guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE

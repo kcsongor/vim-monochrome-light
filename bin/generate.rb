@@ -42,6 +42,10 @@ def sblue
   { gui: '#778899', cterm: 124}
 end
 
+def blue
+  { gui: '#778899', cterm: 20}
+end
+
 def yellow
   { gui: 'Yellow', cterm: 226 }
 end
@@ -108,6 +112,11 @@ hi :CursorLineNr, fg: black, bold: true
 # Diff
 hi :diffAdded, fg: sblue, bg: black
 hi :diffRemoved, fg: red, bg: black
+
+hi :DiffAdd,    fg: sblue,   bg: llgray
+hi :DiffChange, fg: blue,    bg: llgray
+hi :DiffDelete, fg: red,     bg: llgray
+hi :DiffText,   fg: red,     bg: llgray, bold: true
 
 # Folding.
 hi :FoldColumn, fg: dgray
