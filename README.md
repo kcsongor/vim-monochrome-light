@@ -1,1 +1,1 @@
-## monochrome-light
+## Light colorscheme for vim

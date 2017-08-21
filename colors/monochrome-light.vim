@@ -1,21 +1,12 @@
-" Vim color scheme
-"
-" This file is generated, please check bin/generate.rb.
-"
-" Name:       monochrome.vim
-" Maintainer: Xavier Noria <fxn@hashref.com> 
-" License:    MIT
-
-set background=dark
+set background=light
 
 hi clear
 if exists('syntax_on')
    syntax reset
 endif
 
-let g:colors_name = 'monochrome'
+let g:colors_name = 'monochrome-light'
 
-" These commands are generated, see bin/generate.rb.
 hi Normal guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi Cursor guifg=White ctermfg=15 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
@@ -27,7 +18,7 @@ hi DiffChange guifg=#778899 ctermfg=20 guibg=LightGray ctermbg=255 gui=NONE cter
 hi DiffDelete guifg=Red ctermfg=1 guibg=LightGray ctermbg=255 gui=NONE cterm=NONE term=NONE
 hi DiffText guifg=Red ctermfg=1 guibg=LightGray ctermbg=255 gui=bold cterm=bold term=bold
 hi FoldColumn guifg=DarkGray ctermfg=248 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
-hi Folded guifg=Black ctermfg=16 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
+hi Folded guifg=Black ctermfg=245 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi TabLine guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
 hi TabLineFill guifg=LightGray ctermfg=252 guibg=White ctermbg=15 gui=NONE cterm=NONE term=NONE
 hi TabLineSel guifg=White ctermfg=15 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
